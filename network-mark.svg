@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-labelledby="title desc">
+  <title id="title">Trend line logo</title>
+  <desc id="desc">A minimal black and white SVG logo showing an up-and-down trend line that shoots sharply upward.</desc>
+
+  <!-- outer badge -->
+  <rect x="12" y="12" width="232" height="232" rx="40" fill="#ffffff" stroke="#111111" stroke-width="8"/>
+
+  <!-- chart frame -->
+  <rect x="44" y="44" width="168" height="128" rx="12" fill="none" stroke="#111111" stroke-width="8"/>
+
+  <!-- axes -->
+  <path d="M62 152V66M62 152H192" fill="none" stroke="#111111" stroke-width="6" stroke-linecap="round"/>
+
+  <!-- trend line: up, down, up, down, then shoots up -->
+  <path d="M74 138
+           L96 114
+           L116 126
+           L136 100
+           L154 112
+           L171 84
+           L191 60" 
+        fill="none" stroke="#111111" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- arrow at the end -->
+  <path d="M191 60 L180 61 L191 60 L189 71" fill="none" stroke="#111111" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- dots -->
+  <g fill="#111111">
+    <circle cx="74" cy="138" r="5"/>
+    <circle cx="96" cy="114" r="5"/>
+    <circle cx="116" cy="126" r="5"/>
+    <circle cx="136" cy="100" r="5"/>
+    <circle cx="154" cy="112" r="5"/>
+    <circle cx="171" cy="84" r="5"/>
+    <circle cx="191" cy="60" r="5"/>
+  </g>
+
+  <!-- stand -->
+  <path d="M112 188H144M120 172V188M136 172V188" fill="none" stroke="#111111" stroke-width="8" stroke-linecap="round"/>
+</svg>
